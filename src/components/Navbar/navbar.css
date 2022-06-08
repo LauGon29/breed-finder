@@ -1,0 +1,19 @@
+.link {
+    font-size: 19px;
+    text-decoration: none;
+    color: #ed6c02;
+}
+
+.active-link {
+    font-size: 19px;
+    color: #ed6c02;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}

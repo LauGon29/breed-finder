@@ -1,0 +1,33 @@
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-transform: capitalize;
+    padding: 30px 0;
+    flex-wrap: wrap;
+}
+
+.image-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.image-item {
+    /* align-items: start; */
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 25%;
+}
+
+.image-item>img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin: 0 auto;
+}
